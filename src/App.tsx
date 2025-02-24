@@ -89,8 +89,14 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
           className="bg-[#FFD7B5] text-gray-800 px-8 py-3 rounded-full text-lg hover:bg-[#FFE7D5] transition-colors"
+          onClick={() => {
+            const servicesSection = document.getElementById("services");
+            if (servicesSection) {
+              servicesSection.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
         >
-          Get Started
+          Let's plan together!
         </motion.button>
       </div>
     </section>
