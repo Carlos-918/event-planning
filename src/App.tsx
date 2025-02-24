@@ -27,9 +27,7 @@ function Header() {
                 {item}
               </a>
             ))}
-            <button className="bg-[#FFD7B5] text-gray-800 px-6 py-2 rounded-full hover:bg-[#FFE7D5] transition-colors">
-              Get a Quote
-            </button>
+            
           </div>
 
           <button className="md:hidden text-white" onClick={() => setIsOpen(!isOpen)}>
