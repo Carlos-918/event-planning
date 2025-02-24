@@ -49,9 +49,11 @@ function Header() {
                 {item}
               </a>
             ))}
+            /*
             <button className="w-full mt-4 bg-[#FFD7B5] text-gray-800 px-6 py-2 rounded-full hover:bg-[#FFE7D5] transition-colors">
               Get a Quote
             </button>
+            */
           </div>
         )}
       </nav>
